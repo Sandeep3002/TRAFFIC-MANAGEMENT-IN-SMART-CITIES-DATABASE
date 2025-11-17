@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Login - Traffic Management</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header small">
+    <div class="container">
+      <a href="index.html" class="logo">Traffic Management</a>
+    </div>
+  </header>
+
+  <main class="container auth-box">
+    <h2>Client Login</h2>
+    <form action="../backend/login.php" method="post" autocomplete="off">
+      <label>Username
+        <input type="text" name="username" required>
+      </label>
+      <label>Password
+        <input type="password" name="password" required>
+      </label>
+      <button type="submit">Login</button>
+      <p>New user? <a href="signup.html">Sign up</a></p>
+    </form>
+  </main>
+</body>
+</html>
